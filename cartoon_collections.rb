@@ -8,8 +8,8 @@ end
 
 def summon_captain_planet(planeteer)# code an argument here
   # Your code here
-  array.collect do |name|
-     name.capitalize + "!"
+  planeteer.collect do |name|
+    planeteer.capitalize + "!"
    end
 end
 
